@@ -135,7 +135,7 @@ def main():
         ''',
         unsafe_allow_html=True
         )
-        add_vertical_space(2)
+        add_vertical_space(1)
 
         uploadbtn = st.sidebar.button("Upload Document")
  
