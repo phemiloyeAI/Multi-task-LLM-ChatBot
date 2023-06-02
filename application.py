@@ -89,10 +89,9 @@ def main():
     st.markdown('''
     <h3>App Demo</h3>
     ''', unsafe_allow_html=True)
-    demo_video_path = os.path.join(os.getcwd(), 'files\demo_video.mp4')
-
+ 
     st.write("Watch the video below to see a demo of the app.")
-    st.video(demo_video_path)
+    st.video('./files/demo_video.mp4')
 
     with st.sidebar:
         st.markdown('''
