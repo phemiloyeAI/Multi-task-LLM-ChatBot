@@ -153,6 +153,7 @@ def main():
                         with st.spinner('Extracting texts document...'):
                             tfile = tempfile.NamedTemporaryFile(delete=False)
                             tfile.write(uploaded_file.read())
+                            st.write(tfile.name)
                             document_chunks = preprocess_file(tfile.name) # Valid file size, perform preprocessing #os.path.join(os.getcwd(), 'files', 
                             add_vertical_space(1)
                         st.session_state.extract_chunks = False
