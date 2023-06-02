@@ -1,0 +1,13 @@
+chromadb
+cohere
+python-docx
+google-search-results
+langchain
+openai
+PyPDF2
+sentence_transformers 
+streamlit
+streamlit-chat
+streamlit-extras
+tiktoken
+wikipedia  
