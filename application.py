@@ -92,7 +92,7 @@ def main():
     ''', unsafe_allow_html=True)
  
     st.write("Watch the video below to see a demo of the app.")
-    st.video('./files/demo_video.mp4')
+    st.video('./files/demo_video.webm')
 
     with st.sidebar:
         st.markdown('''
@@ -109,7 +109,7 @@ def main():
 
         selected_option = st.radio('Choose:', ('no option', 'Chatbot', 'Question & Answering'))
 
-        add_vertical_space(3)
+        add_vertical_space(1)
     
 
     if selected_option == 'Question & Answering':
@@ -135,7 +135,7 @@ def main():
         ''',
         unsafe_allow_html=True
         )
-        add_vertical_space(2)
+        add_vertical_space(1)
 
         uploadbtn = st.sidebar.button("Upload Document")
  
