@@ -1,6 +1,6 @@
 # Multi-task-LLM-ChatBot
 
-This application is built on top of the LangChain API and provides multi-task functionalities, including Question & Answering over Documents and a smart ChatBot with internet search capabilities. It leverages the power of language models, embedding techniques, and efficient search capabilities to deliver accurate and contextually relevant information to users.
+This [streamlit chatbot application](https://phemiloyeai-multi-task-llm-chatbot-application-d0ad74.streamlit.app/) is built on top of the LangChain API and provides multi-task functionalities, including Question & Answering over Documents and a smart ChatBot with internet search capabilities. It leverages the power of language models, embedding techniques, and efficient search capabilities to deliver accurate and contextually relevant information to users.
 
 https://github.com/phemiloyeAI/Multi-task-LLM-ChatBot/assets/100911418/ffba0a5c-13f2-4422-99a4-9040e9766f60
 
