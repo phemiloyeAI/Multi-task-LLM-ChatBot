@@ -49,13 +49,13 @@ def clean_text(texts, cleaning_functions):
         cleaned_text.append(text)
     return cleaned_text
 
-def preprocess_file(file_path):
+def preprocess_file(file_path, file_name):
     try:
-        if file_path.endswith('.pdf'):
+        if file_name.endswith('.pdf'):
             texts = preprocess_pdf(file_path)
-        elif file_path.endswith('.txt'):
+        elif file_name.endswith('.txt'):
             texts = preprocess_txt(file_path)
-        elif file_path.endswith('.docx'):
+        elif file_name.endswith('.docx'):
             texts = preprocess_docx(file_path)
         
         cleaning_functions = [
