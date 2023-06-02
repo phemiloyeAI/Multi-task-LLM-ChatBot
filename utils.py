@@ -1,3 +1,5 @@
+# document cleaning with regex code was from https://github.com/edrickdch/chat-pdf
+
 import re
 import PyPDF2
 import docx
