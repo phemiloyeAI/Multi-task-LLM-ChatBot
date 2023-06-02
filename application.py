@@ -109,7 +109,7 @@ def main():
 
         selected_option = st.radio('Choose:', ('no option', 'Chatbot', 'Question & Answering'))
 
-        add_vertical_space(3)
+        add_vertical_space(1)
     
 
     if selected_option == 'Question & Answering':
