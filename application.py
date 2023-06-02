@@ -92,7 +92,7 @@ def main():
     ''', unsafe_allow_html=True)
  
     st.write("Watch the video below to see a demo of the app.")
-    st.video('./files/demo_video.mp4')
+    st.video('./files/demo_video.webm')
 
     with st.sidebar:
         st.markdown('''
