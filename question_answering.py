@@ -9,10 +9,10 @@ from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 
 from langchain.vectorstores import Chroma
-from langchain.embeddings import CohereEmbeddings
+from langchain.embeddings import OpenAIEmbeddings
 
 def create_vector_store(chunks):
-    embeddings = CohereEmbeddings()
+    embeddings = OpenAIEmbeddings()
     vector_store = Chroma.from_documents(
                     chunks,
                     embeddings
